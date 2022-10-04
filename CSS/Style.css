@@ -1,0 +1,85 @@
+/* Seccion header Logo y Presentacion */
+
+.barra_encabezado {
+    border-radius: 25px;
+    background-color: #000000;
+    margin: 0.25rem;
+}
+
+.encabezado {
+    display: inline-flex;
+}
+
+.logo {
+    width: 16%;
+    height: 80%;
+    margin: 1rem 1rem 1rem 2rem;
+    border-radius: 20px;
+}
+
+.titulo_ppal {
+    color: #ffffff;
+    font-size: 5rem;
+    font-family: 'DynaPuff', cursive;
+    margin: 5rem 2rem 2rem 2rem;
+}
+
+
+/* Menu barra de navegacion */
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.barra_Navegacion {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    margin: 0.25rem;
+}
+
+.barra_Navegacion_boton1 {
+    border-radius: 20px;
+    margin: 0.25rem;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00ffee;
+    font-size: 2rem;
+    font-family: 'DynaPuff', cursive;
+}
+
+.barra_Navegacion_boton2 {
+    border-radius: 20px;
+    margin: 0.25rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #2bf52f;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'DynaPuff', cursive;
+}
+
+.barra_Navegacion_boton3 {
+    border-radius: 20px;
+    margin: 0.25rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'DynaPuff', cursive;
+}
+
+
+/* estilo parte central */
+
+.img_principal {
+    width: 100%;
+    border-radius: 25px;
+    margin: 0.25rem;
+}

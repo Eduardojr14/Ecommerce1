@@ -1,0 +1,125 @@
+/* Modulo Contacto */
+
+.contacto {
+    background-color: #f5f5dc;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ :root {
+    --cnegro: black;
+    --ctexto: #000000;
+    --ctextoDark: #84f575;
+    --cblanco: white;
+    --error: rgb(184, 31, 31);
+}
+
+
+/* Formulario  */
+
+.formulario {
+    display: inline;
+}
+
+.form {
+    max-width: 400px;
+    padding: 30px 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.form-input {
+    margin-bottom: 30px;
+}
+
+.form-input label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: var(--ctexto);
+    font-family: 'DynaPuff', cursive;
+}
+
+.form-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid var(--ctexto);
+}
+
+.form-input input:focus+label {
+    font-weight: bold;
+    color: var(--cnegro);
+}
+
+.form-boton input {
+    background: var(--cnegro);
+    color: var(--cblanco);
+    padding: 10px 50px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.form-boton input:hover {
+    background: var(--ctextoDark);
+    transition: 0.5s;
+}
+
+.mensajeError {
+    color: var(--error);
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.mensajeCorrecto {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'DynaPuff', cursive;
+    color: #0000ff;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.form-mensaje {
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.5rem;
+}
+
+
+/* Segunda parte de Contactos */
+
+.contacto_titulos {
+    font-size: 2.5rem;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    color: #000000;
+    padding: 1rem;
+    margin: 1rem 1rem;
+}
+
+.contacto_Contenido {
+    background-color: #fdfde5;
+    margin: 0.75rem;
+    border-radius: 25px;
+}
+
+.contacto_parrafo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.mapa {
+    background-color: #f5f5dc;
+    border-radius: 25px;
+    margin: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+}

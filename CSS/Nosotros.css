@@ -1,0 +1,39 @@
+.nossomos_body {
+    background-image: url("../Imagenes/Fondo/fondo2.jpg");
+    background-repeat: no-repeat;
+}
+
+.encbnosotros {
+    font-size: 5rem;
+    font-family: 'DynaPuff', cursive;
+    margin: 5rem 2rem 2rem 2rem;
+}
+
+.nossomos_imagen_ppal {
+    width: 50%;
+    height: 45%;
+    margin: 0.5rem;
+    float: right;
+    padding: 5rem;
+}
+
+.nossomos_titulo {
+    font-family: 'DynaPuff', cursive;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.nossomos_parrafo {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.20rem;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.nossomos_imagen_sec {
+    padding: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    float: left;
+}

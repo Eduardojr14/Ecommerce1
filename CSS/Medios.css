@@ -1,0 +1,12 @@
+.barra_medios {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.barra_medios_imagenes {
+    width: 18rem;
+    height: 15em;
+    padding: 1rem;
+    margin: 1rem 1rem;
+}

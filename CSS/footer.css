@@ -1,0 +1,43 @@
+/* Estilos del Footer */
+
+.barra_navegacion_footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 2rem;
+}
+
+.barra-navegacionfooter1 {
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    background-color: #44cef8;
+    margin: 0.25rem;
+    font-size: 2rem;
+    font-family: 'DynaPuff', cursive;
+}
+
+
+/* Estilos Redes Sociales */
+
+.redes {
+    text-align: center;
+}
+
+.redes_iconos {
+    display: inline;
+    margin: 1rem 2rem;
+}
+
+.redes_imagenes {
+    width: 7%;
+    height: 60%;
+    margin: 1rem;
+}
+
+.authorderechos {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

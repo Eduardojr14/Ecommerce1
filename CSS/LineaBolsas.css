@@ -1,0 +1,23 @@
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1ef;
+    border-radius: 25px;
+}
+
+.titulos {
+    color: #000000;
+    background-color: #9cfa65;
+    border-radius: 25px;
+    font-size: 3rem;
+    font-family: 'DynaPuff', cursive;
+    padding: 2rem;
+    margin: 1.25rem;
+}
+
+.icono_bolsa {
+    width: 22%;
+    height: 27%;
+    margin: 1rem;
+    border-radius: 25px;
+}

@@ -1,0 +1,17 @@
+.reciclado {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.reciclado_imagen {
+    width: 12rem;
+    height: 10em;
+    margin: 1rem 0.5rem;
+}
+
+.reciclado_Parrafo {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 45px;
+    text-align: justify;
+}
