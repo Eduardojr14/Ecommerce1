@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Keywords" content="plastico, bolsas, residuo, consorcio, ecommerce, basura, polietileno, grumo">
+    <meta name="description" content="Fabrica de bolsas y bobinas plasticas en polietileno de baja densidad, residuo, consorcio, ecommerce, escombro, camiseta, riñon, bobinas cristal caramelo negro rojo amarillo azul verde bobinas de corralon abiertas a un lado todo hecho con material polietileno de baja densidad reciclado y virgen">
+    <meta name="description" content="Somos fabricantes, estamos en facebook, instagram, twitter, mercadolibre, mercadoshop">
+    <meta name="Keywords" content="plastico, bolsas, residuo, consorcio, ecommerce, camiseta, basura, polietileno, grumo, baja densidad">
     <meta name="author" content="Eduardo Parra">
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/Style.css">
@@ -31,35 +33,35 @@
         <section class="contacto">
             <div>
                 <h2 class="contacto_titulos">Ponte en Contacto</h2>
-                <form action="" class="form" id="form" autocomplete="off">
+                <form method="post" class="form" id="form" autocomplete="off">
 
                     <div class="form-input myname">
-                        <input type="text" id="myname" required placeholder="Nombre">
+                        <input type="text" id="myname" name="myname" required placeholder="Nombre">
                         <label for="myname">Nombre</label>
                         <p class="mensajeError"></p>
                     </div>
 
                     <div class="form-input lastname">
-                        <input type="text" id="lastname" required placeholder="Apellido">
+                        <input type="text" id="lastname" name="lastname" required placeholder="Apellido">
                         <label for="lastname">Apellido</label>
                         <p class="mensajeError"></p>
                     </div>
 
                     <div class="form-input email">
-                        <input type="email" id="email" required placeholder="email@dominio.com">
+                        <input type="email" id="email" name="email" required placeholder="email@dominio.com">
                         <label for="email">Correo electrónico</label>
                         <p class="mensajeError"></p>
                     </div>
 
                     <div class="form-input mobile">
-                        <input type="tel" id="mobile" required placeholder="(XX) XXXX XXXX">
+                        <input type="tel" id="mobile" name="mobile" required placeholder="(XXX) XXXX XXXX">
                         <label for="mobile">Telefono</label>
                         <p class="mensajeError"></p>
                     </div>
 
                     <div>
                         <label for="mensaje" class="form-mensaje">Mensaje</label>
-                        <textarea cols="52" rows="10" id="mensaje"></textarea>
+                        <textarea cols="52" rows="10" id="mensaje" name="mensaje"></textarea>
                     </div>
 
                     <div class="form-boton">
@@ -124,11 +126,10 @@
                 </ul>
             </div>
             <script src="../JS/ValidacionForm.js"></script>
+            <script src="../JS/appbd.js"></script>
         </section>
 
     </footer>
 </body>
-
-<!-- Revisar funcionabilidad formulario JS -->
 
 </html>

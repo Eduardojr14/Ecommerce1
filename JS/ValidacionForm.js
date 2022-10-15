@@ -33,7 +33,7 @@ function validacionForm() {
         condicion = false;
     }
     if (
-        telefono.value.length != 10 ||
+        telefono.value.length != 11 ||
         telefono.value.trim() == "" ||
         isNaN(telefono.value)
     ) {
